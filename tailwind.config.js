@@ -4,13 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Kanit: ['Kanit'], 
-        poppins: ['poppins']
+        std: ['Kanit']
       },
       colors: {
-        primary: '#225522',
-        text: '#F5F5F5',
-        bgd: '#FFFDD0',
+        primary: '#9DAOA7',
+        text: '#03030A',
+        bgd: '#C6D0DE',
         acc: '#FFD700'
       }
     },
