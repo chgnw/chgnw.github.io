@@ -4,13 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        std: ['Kanit']
+        std: ['Ubuntu Mono']
       },
       colors: {
-        primary: '#9DAOA7',
-        text: '#03030A',
-        bgd: '#C6D0DE',
-        acc: '#FFD700'
+        background: '#FFF0F5',
+        text: '#483D8B',
+        primary: '#F4E3E9',
+        secondary: '#F5F5F5',
+        accent: '#BC8F8F'
       }
     },
   },
