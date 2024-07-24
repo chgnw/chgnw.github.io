@@ -6,66 +6,68 @@
     <title>CHGNW | Home</title>
     <link href="./public/output.css" rel="stylesheet">
 </head>
-<body class="font-std bg-background px-96">
-    <!-- Navbar START -->
-    <nav id="mavbar" class="flex items-center justify-between py-6 px-48 mb-6">
-        <a href="index.html" class="text-text font-bold text-4xl">CHGNW</a>
+<body class="bg-background text-text font-umono mx-12 md:mx-48 lg:mx-96">
+    <!-- NavBar START -->
+    <div id="navbar" class="bg-secondary flex justify-between py-4 px-4 mb-4 md:px-24 lg:px-48 shadow-md">
+        <h1 class="text-5xl font-bold">CHGNW</h1>
 
-        <div>
-            <ul class="flex space-x-12 text-text text-xl">
-                <li>
-                    <a href="" class="hover:underline underline-offset-8">Resume</a>
-                </li>
-                <li>
-                    <a href="" class="hover:underline underline-offset-8">Projects</a>
-                </li>
-                <li>
-                    <a href="" class="hover:underline underline-offset-8">Contacts</a>
-                </li>
+        <div class="flex items-center">
+            <ul class="text-xl font-bold flex space-x-4 md:space-x-6 lg:space-x-12">
+                <li><a href="#skills" class="hover:underline underline-offset-8">Skills</a></li>                
+                <li><a href="#resume" class="hover:underline underline-offset-8">Resume</a></li>
+                <li><a href="#projects" class="hover:underline underline-offset-8">Projects</a></li>
             </ul>
         </div>
-    </nav>
-    <!-- Navbar END -->
+    </div>
+    <!-- NavBar END -->
 
-    <!-- About START -->
-    <div id="about-me" class="flex py-6 px-48 mb-12 rounded-xl">
-        <div class="flex flex-col items-center justify-center mr-4">
-            <img src="./photos/profile.png" alt="ProfilePhoto" class="w-32 h-32 rounded-full">
+    <!-- About-Me START -->
+    <div id="about-me" class="bg-secondary py-4 px-4 mb-4 md:px-24 lg:px-48 shadow-md">
+        <div class="flex justify-center">
+            <img src="./photos/profile.png" alt="ProfilePhoto" class="w-24 h-auto p-2 rounded-full outline md:w-28 lg:w-36">
         </div>
+        
 
-        <div class="text-justify flex-auto w-32">
-            <h5 class="text-text text-2xl font-bold">Get to know me...</h5>
-            <h5 class="text-text text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias eaque aliquam vel inventore architecto ad nulla enim aspernatur dignissimos sed beatae, et similique odit libero illum deleniti consequatur reprehenderit est perspiciatis fuga doloribus cum! Placeat quo et inventore totam voluptate quaerat aperiam, explicabo excepturi? Nesciunt itaque ratione incidunt in.</h5>
+        <div class="flex flex-col space-y-1 text-justify">
+            <span class="text-xl md:text-2xl lg:text-3xl font-bold">Get to know me...</span>
+            <span class="text-md md:text-lg lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta error possimus dolorum nobis consequatur iste vero totam perspiciatis, non pariatur aliquid ab quaerat molestias eaque mollitia qui dolorem numquam laborum facilis assumenda commodi incidunt sint fuga? Dicta consectetur asperiores officia?</span>
         </div>
     </div>
-    <!-- About END -->
+    <!-- About-Me END -->
 
     <!-- Skills START -->
-    <div id="Skills" class="py-6 px-48 mb-12 rounded-xl">
-        <h5 class="text-xl text-text flex items-center justify-center">Skills</h5>
-        <h5 class="text-2xl font-bold text-text flex items-center justify-center">Here are some tools that I use</h5>
+    <div id="skills" class="bg-secondary py-4 px-4 mb-4 md:px-24 lg:px-48 shadow-md">
+        <div class="flex flex-col text-center mb-4">
+            <span class="font-bold text-md md:text-lg lg:text-xl">Skills</span>
+            <span class="font-bold text-xl md:text-2xl lg:text-3xl">Here are some tools that I use</span>
+        </div>
 
-        <div class="grid grid-cols-2 px-48 my-4 gap-6 flex items-center justify-center">
+        <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4">
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
                 <img src="./photos/js.png" alt="JavaScript" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">JavaScript</span>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
                 <img src="./photos/reactjs.png" alt="ReactJs" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">ReactJs</span>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
                 <img src="./photos/html.png" alt="HTML5" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">HTML5</span>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
                 <img src="./photos/tailwind.png" alt="Tailwind" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">Tailwind</span>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
-                <img src="./photos/python.png" alt="MongoDB" class="w-12 h-12 mx-auto">
+                <img src="./photos/python.png" alt="Python" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">Python</span>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-200">
                 <img src="./photos/figma.png" alt="Figma" class="w-12 h-12 mx-auto">
                 <span class="mt-4 block text-lg font-semibold text-text">Figma</span>
@@ -73,59 +75,59 @@
         </div>
     </div>
     <!-- Skills END -->
-
+    
     <!-- Resume START -->
-    <div id="resume" class="py-6 px-48 mb-12 rounded-xl">
-        <h5 class="text-2xl font-bold text-text flex items-center justify-center">Want to know more detail about me?</h5>
-        <h5 class="text-xl text-text flex items-center justify-center">You can view or download my resume down below</h5>
+    <div id="resume" class="bg-secondary py-4 px-4 mb-4 md:px-24 lg:px-48 shadow-md">
+        <div class="flex flex-col text-center mb-4">
+            <span class="font-bold text-md md:text-lg lg:text-xl">Resume</span>
+            <span class="font-bold text-xl md:text-2xl lg:text-3xl">Want to know more detail about me?</span>
+            <span class="font-bold text-lg md:text-xl lg:text-2xl">You can view or download my resume down below</span>
+        </div>
 
-        <div class="flex flex-row space-x-5 justify-center pt-2">
-            <a href=""><button class="text-text bg-secondary outline outline-text rounded-full py-2 px-6 font-bold hover:bg-text hover:text-secondary transform hover:scale-105 transition-transform duration-200">Download</button></a>
-            <a href=""><button class="text-text bg-secondary outline outline-text rounded-full py-2 px-6 font-bold hover:bg-text hover:text-secondary transform hover:scale-105 transition-transform duration-200">View</button></a>
-        </div>  
-        
+        <div class="flex justify-center space-x-4">
+            <button class="font-bold rounded-xl outline outline-text py-2 px-4 hover:text-white hover:bg-text transform hover:scale-105 transition-transform duration-200">View</button>
+            <button class="font-bold rounded-xl outline outline-text py-2 px-4 hover:text-white hover:bg-text transform hover:scale-105 transition-transform duration-200">Download</button>
+        </div>
     </div>
     <!-- Resume END -->
 
     <!-- Projects START -->
-    <div id="skills" class="py-6 px-48 mb-12 rounded-xl">
-        <h5 class="text-xl text-text flex items-center justify-center">Projects</h5>
-        <h5 class="text-2xl font-bold text-text flex items-center justify-center">Several projects I've done</h5>
+    <div id="projects" class="bg-secondary py-4 px-4 mb-4 md:px-24 lg:px-48 shadow-md">
+        <div class="flex flex-col text-center mb-4">
+            <span class="font-bold text-md md:text-lg lg:text-xl">Projects</span>
+            <span class="font-bold text-xl md:text-2xl lg:text-3xl">Some projests I've done in the past</span>
+        </div>
 
-        <div class="grid grid-cols-2 px-48 my-4 gap-6 flex items-center justify-center">
+        <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4">
             <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
                 <h5 class="text-text text-xl font-bold">Projects 1</h5>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
                 <h5 class="text-text text-xl font-bold">Projects 2</h5>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
                 <h5 class="text-text text-xl font-bold">Projects 3</h5>
             </div>
+
             <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
                 <h5 class="text-text text-xl font-bold">Projects 4</h5>
-            </div>
-            <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
-                <h5 class="text-text text-xl font-bold">Projects 5</h5>
-            </div>
-            <div class="bg-secondary rounded-xl shadow-lg text-center p-12 transform hover:scale-105 transition-transform duration-200">
-                <h5 class="text-text text-xl font-bold">Projects 6</h5>
             </div>
         </div>
     </div>
     <!-- Projects END -->
 
     <!-- Footer/Contacts START -->
-     <div id="contacts" class="flex items-center justify-between py-6 px-48 mb-12">
-        <a href="index.html" class="text-text font-bold text-4xl">CHGNW</a>
+    <div id="contacts" class="bg-secondary flex justify-between py-4 px-4 mb-2 md:px-24 lg:px-48 shadow-md">
+        <h1 class="text-5xl font-bold">CHGNW</h1>
 
-        <div class="flex space-x-9">
-            <a href=""><img src="./photos/instagram.png" alt="" class="w-9 h-9 mx-auto"></a>
-            <a href=""><img src="./photos/twitter.png" alt="" class="w-9 h-9 mx-auto"></a>
-            <a href=""><img src="./photos/linkedin.png" alt="" class="w-9 h-9 mx-auto"></a>
+        <div class="flex space-x-9 items-center">
+            <a href="https://www.instagram.com/ch.gnw/" target="_blank"><img src="./photos/instagram.png" alt="" class="w-8 h-8 mx-auto md:w-10 md:h-10 lg:md-12 lg:h-12 lg:w-12"></a>
+            <a href="https://x.com/FallInLov3WithU" target="_blank"><img src="./photos/twitter.png" alt="" class="w-8 h-8 mx-auto md:w-10 md:h-10 lg:md-12 lg:h-12 lg:w-12"></a>
+            <a href="" target="_blank"><img src="./photos/linkedin.png" alt="" class="w-8 h-8 mx-auto md:w-10 md:h-10 lg:md-12 lg:h-12 lg:w-12"></a>
         </div>
      </div>
     <!-- Footer/Contacts END -->
-
 </body>
 </html>

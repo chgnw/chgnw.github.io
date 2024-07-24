@@ -2,9 +2,14 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    screens: {
+      'sm': '480px',
+      'md': '834px',
+      'lg': '1440px',
+    },
     extend: {
       fontFamily: {
-        std: ['Ubuntu Mono']
+        umono: ['Ubuntu Mono']
       },
       colors: {
         background: '#FFF0F5',
