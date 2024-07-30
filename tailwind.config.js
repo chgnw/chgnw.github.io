@@ -12,10 +12,9 @@ module.exports = {
         umono: ['Ubuntu Mono']
       },
       colors: {
-        background: '#FFF0F5',
-        text: '#483D8B',
-        primary: '#F4E3E9',
-        secondary: '#F5F5F5',
+        background: '#151517',
+        text: '#C6D624',
+        secondary: '#F3F3F4',
         accent: '#BC8F8F'
       }
     },
